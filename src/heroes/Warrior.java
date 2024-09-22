@@ -1,6 +1,6 @@
-package Heroes;
+package heroes;
 
-import Enemies.Enemy;
+import enemies.Enemy;
 
 public class Warrior extends Hero {
     private static final int DAMAGE = 15;

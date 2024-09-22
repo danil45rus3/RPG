@@ -1,13 +1,13 @@
-package Enemies;
+package enemies;
 
-import Heroes.Hero;
-import Interface.Mortal;
+import heroes.Hero;
+import mortal.Mortal;
 
 
 public abstract class Enemy implements Mortal {
     private final String name;
     private int health;
-    private static final int DAMAGE = 20;
+    private static final int DAMAGE = 10;
 
     public Enemy(String name, int health) {
         this.health = health;

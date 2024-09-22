@@ -1,4 +1,4 @@
-package Enemies;
+package enemies;
 
 public class Zombie extends Enemy {
     public Zombie(String name, int health) {

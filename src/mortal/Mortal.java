@@ -1,4 +1,4 @@
-package Interface;
+package mortal;
 
 public interface Mortal {
     boolean isAlive();

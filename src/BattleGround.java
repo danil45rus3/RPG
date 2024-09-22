@@ -1,6 +1,6 @@
 
-import Enemies.Pudge;
-import Heroes.Archer;
+import enemies.Pudge;
+import heroes.Archer;
 
 public class BattleGround {
     public static void main(String[] args) {

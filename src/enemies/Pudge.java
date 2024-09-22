@@ -1,4 +1,4 @@
-package Enemies;
+package enemies;
 
 
 public class Pudge extends Enemy {

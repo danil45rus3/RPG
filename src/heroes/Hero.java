@@ -1,7 +1,8 @@
-package Heroes;
+package heroes;
 
-import Enemies.Enemy;
-import Interface.Mortal;
+import enemies.Enemy;
+import mortal.Mortal;
+
 
 public abstract class Hero implements Mortal {
 
@@ -27,12 +28,11 @@ public abstract class Hero implements Mortal {
 
     public abstract void attackEnemy(Enemy enemy);
 
-
     public void attackInformation(Enemy enemy) {
         if (enemy.isAlive()) {
             System.out.printf("У %s осталось %d ХП\n", enemy.getName(), enemy.getHealth());
         } else {
-            System.out.printf("%s убит(а)", enemy.getName());
+            System.out.printf("%s убит(а)\n", enemy.getName());
         }
     }
 
